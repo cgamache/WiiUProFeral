@@ -1,0 +1,15 @@
+Index: WiimoteAutoWrapper.m
+===================================================================
+--- WiimoteAutoWrapper.m	(revision 246)
++++ WiimoteAutoWrapper.m	(working copy)
+@@ -218,7 +218,9 @@
+ 
+     m_WJoy      = [[WJoyDevice alloc]
+                              initWithHIDDescriptor:[m_HIDState descriptor]
+-                                     productString:[WiimoteAutoWrapper wjoyNameFromWiimote:device]];
++                   properties:@{WJoyDeviceProductStringKey: [WiimoteAutoWrapper wjoyNameFromWiimote:device],
++                                WJoyDeviceVendorIDKey: @(0xFAFAFA),
++                                WJoyDeviceProductIDKey: @(0xABABAB)}];
+ 
+     if(m_HIDState   == nil ||
+        m_WJoy       == nil)

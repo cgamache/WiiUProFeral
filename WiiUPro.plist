@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CGPDeviceType</key>
+        <string>Standard</string>
+	    <key>CGPDisplayNameOvr</key>
+        <string>Wii U Pro Controller</string>
+        <key>VendorID</key>
+        <integer>0xFAFAFA</integer>
+        <key>ProductID</key>
+        <integer>0xABABAB</integer>
+        
+        
+        <key>LeftTrigger</key>
+        <string>9:22</string>
+        <key>LeftTrigger-Max</key>
+        <string>1</string>
+        <key>LetTrigger-Min</key>
+        <string>0</string>
+
+        <key>RightTrigger</key>
+        <string>9:23</string>
+        <key>RightTrigger-Max</key>
+        <string>1</string>
+        <key>RightTrigger-Min</key>
+        <string>0</string>
+
+        <key>ButtonA</key>
+        <string>9:16</string>
+        <key>ButtonB</key>
+        <string>9:17</string>
+        <key>ButtonX</key>
+        <string>9:18</string>
+        <key>ButtonY</key>
+        <string>9:19</string>
+        <key>LeftShoulder</key>
+        <string>9:20</string>
+        <key>RightShoulder</key>
+        <string>9:21</string>
+        <key>LeftThumb</key>
+        <string>9:24</string>
+        <key>RightThumb</key>
+        <string>9:25</string>
+        <key>ButtonStart</key>
+        <string>9:7</string>
+        <key>ButtonBack</key>
+        <string>9:8</string>
+        <key>DPadUp</key>
+        <string>9:12</string>
+        <key>DPadRight</key>
+        <string>9:15</string>
+        <key>DPadDown</key>
+        <string>9:13</string>
+        <key>DPadLeft</key>
+        <string>9:14</string>
+        
+
+
+        <key>LeftAxisX</key>
+        <string>1:48</string>
+        <key>LeftAxisY</key>
+        <string>1:49</string>
+        <key>LeftAxisX-Max</key>
+        <string>75</string>
+        <key>LeftAxisX-Min</key>
+        <string>-75</string>
+        <key>LeftAxisY-Max</key>
+        <string>75</string>
+        <key>LeftAxisY-Min</key>
+        <string>-75</string>
+
+        <key>RightAxisX</key>
+        <string>1:50</string>
+        <key>RightAxisY</key>
+        <string>1:51</string>
+        <key>RightAxisY-Max</key>
+        <string>75</string>
+        <key>RightAxisY-Min</key>
+        <string>-75</string>
+        <key>RightAxisX-Max</key>
+        <string>75</string>
+        <key>RightAxisX-Min</key>
+        <string>-75</string>
+
+        
+    </dict>
+</plist>
