@@ -18,7 +18,7 @@ I'm assuming you have installed XCode and can at least Google your way to checki
 2. Apply changes to WiimoteAutoWrapper.m ... the VendorID and ProductID are important, but those values were selected by me arbitrarily. I have no guarantee that they won't collide 
 horribly with some other manufacturer's official VendorID and ProductID. (Any insight on proper ID selection would be welcome.) 
 3. Place WiiUPro.plist in "/Applications/Batman Arkham Asylum.app/Contents/Resources/InputDevices/Customer/" (path is valid as of v1.1)
-4. Follow instructions from [Stack Overflow](http://apple.stackexchange.com/questions/163059/how-can-i-disable-kext-signing-in-mac-os-x-10-10-yosemite) ... Essentially "sudo nvram boot-args=kext-dev-mode=1"
+4. Follow instructions from [Stack Exchange](http://apple.stackexchange.com/questions/163059/how-can-i-disable-kext-signing-in-mac-os-x-10-10-yosemite) ... Essentially "sudo nvram boot-args=kext-dev-mode=1"
 5. Reboot
 6. Compile and run wjoy
 7. Pair Wii U Pro Controller
